@@ -101,8 +101,8 @@ Host github.com
   IdentitiesOnly yes
 ```
 
-本仓库的远端约定：`origin` 拉取走 HTTPS（公开、免登录），推送走 SSH（免密码）。
-`gitee` 是国内的备用/主远端，fetch+push 都走 SSH。
+本仓库的远端约定：`origin` = GitHub、`gitee` = Gitee，两个远端的 fetch 和 push 都走 SSH
+（免密码，比 HTTPS 稳得多）。换机首次克隆才用公开 HTTPS 地址，因为那时还没有密钥。
 
 
 ## 开发加速工具 tools\accel
@@ -132,4 +132,5 @@ cd C:\Users\13559\Projects\codex-workspace\tools\accel
 
 注意：加速通道只支持读取，推送已自动指回 GitHub 真实地址；
 普通网页访问（Google、YouTube 等）不在本工具范围内，那类需求要用商业加速器。
+
 
