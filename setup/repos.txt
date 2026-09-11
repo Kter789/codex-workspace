@@ -1,5 +1,12 @@
-﻿# 新设备迁移时按此清单克隆。一行一个仓库，格式：
+# 新设备迁移时按此清单克隆。一行一个仓库，格式：
 #   远程URL [目标文件夹名]
 # 目标文件夹名可省略，省略时取仓库名。以 # 开头的行会被忽略。
+#
+# codex-workspace 本仓库（它包含这份清单）需要先手动克隆一步，二选一：
+#   公开免登录：git clone https://github.com/Kter789/codex-workspace.git C:\Users\<你>\Projects\codex-workspace
+#   国内更稳  ：git clone https://gitee.com/which-Kter/codex-workspace.git C:\Users\<你>\Projects\codex-workspace
+#
+# 下面这行是其余仓库的自动克隆清单。codex-workspace 已存在时会被自动跳过。
+# 之后新开项目，把它的地址照格式追加一行到这里即可。
 
 https://github.com/Kter789/codex-workspace.git codex-workspace
