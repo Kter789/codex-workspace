@@ -57,3 +57,30 @@ git push -u origin main
 - **GitHub 本机直连超时**（2026-09-11 实测）。需要时先开代理，再执行：
   `git config --global http.https://github.com.proxy http://127.0.0.1:7890`
   取消代理：`git config --global --unset http.https://github.com.proxy`
+
+## 开发加速工具 tools\accel
+
+纯本地配置，**不需要服务器、不需要 VPN**，覆盖开发流量。
+
+```powershell
+cd C:\Users\13559\Projects\codex-workspace\tools\accel
+.\accel.cmd test                      # 线路自检
+.\accel.cmd mirrors on                # npm / pip / go 切国内镜像
+.\accel.cmd mirrors off               # 还原（备份在 %USERPROFILE%\.accel）
+.\accel.cmd gh-clone <github-url>     # 加速克隆 GitHub 仓库
+.\accel.cmd gh-remote on              # 给当前仓库 origin 套加速前缀
+.\accel.cmd to-gitee <gitee-url>      # 把当前仓库同步到 Gitee
+```
+
+2026-09-11 实测（本机）：
+
+| 线路 | 延迟 |
+| --- | --- |
+| Go 代理 goproxy.cn | 62 ms |
+| pip 阿里云 | 197 ms |
+| Gitee 直连 | 258 ms |
+| npm npmmirror | 394 ms |
+| GitHub 直连 | 736~2915 ms（波动大，时通时超时） |
+| GitHub 加速通道 ghproxy.net | 2175 ms（稳定可读） |
+
+注意：加速通道只支持读取，推送已自动指回 GitHub 真实地址；普通网页访问（Google、YouTube 等）不在本工具范围内。
