@@ -1,0 +1,15 @@
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Scratch space
+work/tmp/
+work/scratch/
+
+# Python / Node artifacts
+__pycache__/
+*.pyc
+node_modules/
