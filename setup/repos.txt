@@ -1,6 +1,5 @@
 ﻿# 新设备迁移时按此清单克隆。一行一个仓库，格式：
 #   远程URL [目标文件夹名]
 # 目标文件夹名可省略，省略时取仓库名。以 # 开头的行会被忽略。
-#
-# 示例：
-# https://gitee.com/your-account/codex-workspace.git codex-workspace
+
+https://github.com/Kter789/codex-workspace.git codex-workspace
