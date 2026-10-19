@@ -4,10 +4,10 @@
 
 ## 下载 v2.0.7
 
-- 推荐下载地址（国内可用）：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.7.zip>
-- 固定版本 v2.0.7：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.7.zip>
-- 文件大小：73,941 字节
-- SHA-256：`508e6d78b8f2e79f8de34089e95cb753462419f532ce6fc55b16f7b34c3ff1bb`
+- 推荐下载地址（国内可用）：<https://ghfast.top/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.7.zip>
+- 备用地址：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.7.zip>
+- 文件大小：73,936 字节
+- SHA-256：`865140438b4a6930460646fe4a7d27dbd5840185448822a3ec483248ba650eb3`
 
 > v2.0.7：修复新建对话页两个入口反复重排导致的闪烁；修复安装页内联脚本被浏览器 CSP 拦截的问题。
 
