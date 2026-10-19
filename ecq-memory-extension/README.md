@@ -2,12 +2,14 @@
 
 适用于 `https://chat.echenqi.cn` 的本地长期记忆扩展。同一账号下所有智能体共享记忆；不同账号、不同电脑严格隔离。记忆保存在当前电脑的浏览器 IndexedDB，不上传平台服务器。
 
-## 下载 v2.0.6
+## 下载 v2.0.7
 
-- 推荐下载地址（国内可用）：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.6.zip>
-- 固定版本 v2.0.6：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.6.zip>
-- 文件大小：67,156 字节
-- SHA-256：`15ba7b304b1bc8c25ed0fca4d830c9af717bba70c55ac638f147d20446102b90`
+- 推荐下载地址（国内可用）：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.7.zip>
+- 固定版本 v2.0.7：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.7.zip>
+- 文件大小：73,941 字节
+- SHA-256：`508e6d78b8f2e79f8de34089e95cb753462419f532ce6fc55b16f7b34c3ff1bb`
+
+> v2.0.7：修复新建对话页两个入口反复重排导致的闪烁；修复安装页内联脚本被浏览器 CSP 拦截的问题。
 
 > jsDelivr 在部分网络下无法访问，不再作为主下载地址。
 
