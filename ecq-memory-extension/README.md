@@ -2,16 +2,18 @@
 
 适用于 `https://chat.echenqi.cn` 的本地长期记忆扩展。记忆按“账号 + 智能体”隔离，保存在当前电脑的浏览器 IndexedDB，不上传平台服务器。
 
-## 下载 v2.0.4
+## 下载 v2.0.5
 
-- 推荐下载地址（国内可用）：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.4.zip>
-- 备用地址（GitHub Raw，部分网络可能超时）：<https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.4.zip>
-- 文件大小：61,549 字节
-- SHA-256：`cd61a9a77b20bae01ebb146fdf471465cc45be4cbe0b87530b118f0029bb072d`
+- 推荐下载地址（国内可用，始终最新）：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-latest.zip>
+- 固定版本 v2.0.5：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.5.zip>
+- 文件大小：66,331 字节
+- SHA-256：`7545e71a53236511e32fa8add212bc60850b72d9caa2de58cd248fc7817b8dd5`
 
 > jsDelivr 在部分网络下无法访问，不再作为主下载地址。
 
 ## 安装方法（Microsoft Edge）
+
+入口：在“AI记忆教练”标题上方点「下载 / 安装扩展」按钮，可直接打开下载与安装说明页。
 
 1. 下载压缩包并解压到一个固定目录，例如 `D:\ECQ\ecq-memory-extension`。压缩包里就是 `ecq-memory-extension` 文件夹，`manifest.json` 在文件夹第一层。这个目录以后不要删除。
 2. 在 Edge 地址栏打开 `edge://extensions`。
