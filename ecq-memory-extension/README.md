@@ -4,14 +4,16 @@
 
 ## 下载 v2.0.4
 
-- 主下载地址（jsDelivr）：<https://cdn.jsdelivr.net/gh/Kter789/codex-workspace@main/ecq-memory-extension/ecq-memory-extension-v2.0.4.zip>
-- 备用地址（GitHub Raw）：<https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.4.zip>
-- 文件大小：61,349 字节
-- SHA-256：`6b1254ce1d6d0a40e208c1183eb3a06b00068e5e7ad5aaa2379ca631466508a4`
+- 推荐下载地址（国内可用）：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.4.zip>
+- 备用地址（GitHub Raw，部分网络可能超时）：<https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.4.zip>
+- 文件大小：61,549 字节
+- SHA-256：`cd61a9a77b20bae01ebb146fdf471465cc45be4cbe0b87530b118f0029bb072d`
+
+> jsDelivr 在部分网络下无法访问，不再作为主下载地址。
 
 ## 安装方法（Microsoft Edge）
 
-1. 下载并解压到一个固定目录，例如 `D:\ECQ\ecq-memory-extension`。这个目录以后不要删除。
+1. 下载压缩包并解压到一个固定目录，例如 `D:\ECQ\ecq-memory-extension`。压缩包里就是 `ecq-memory-extension` 文件夹，`manifest.json` 在文件夹第一层。这个目录以后不要删除。
 2. 在 Edge 地址栏打开 `edge://extensions`。
 3. 开启“开发人员模式”。
 4. 点“加载解压缩的扩展”，选择直接包含 `manifest.json` 的文件夹。
