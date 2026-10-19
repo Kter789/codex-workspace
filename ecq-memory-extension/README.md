@@ -1,13 +1,13 @@
 # ECQ 本地记忆扩展
 
-适用于 `https://chat.echenqi.cn` 的本地长期记忆扩展。记忆按“账号 + 智能体”隔离，保存在当前电脑的浏览器 IndexedDB，不上传平台服务器。
+适用于 `https://chat.echenqi.cn` 的本地长期记忆扩展。同一账号下所有智能体共享记忆；不同账号、不同电脑严格隔离。记忆保存在当前电脑的浏览器 IndexedDB，不上传平台服务器。
 
-## 下载 v2.0.5
+## 下载 v2.0.6
 
 - 推荐下载地址（国内可用，始终最新）：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-latest.zip>
-- 固定版本 v2.0.5：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.5.zip>
-- 文件大小：66,331 字节
-- SHA-256：`7545e71a53236511e32fa8add212bc60850b72d9caa2de58cd248fc7817b8dd5`
+- 固定版本 v2.0.6：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.6.zip>
+- 文件大小：67,196 字节
+- SHA-256：`58ad0b4effc90c1eff9d99e46e40d8ae140d54a6f6399cfe88456a7941ca4003`
 
 > jsDelivr 在部分网络下无法访问，不再作为主下载地址。
 
@@ -28,7 +28,7 @@
 
 - 升级：下载新版本，替换固定目录中的文件，到 `edge://extensions` 点“重新加载”。不要点“移除扩展”，以免本地记忆被清除。
 - 迁移：在旧电脑点“打开记忆管理” → “导出 JSON”，在新电脑安装后点“导入备份”。
-- 记忆范围：账号记忆、本机兜底记忆、不同智能体之间均互相隔离。
+- 记忆范围：同一账号下全智能体共享；不同账号、不同电脑严格隔离。
 
 ## 常见问题
 
