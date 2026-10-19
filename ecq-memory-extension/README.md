@@ -4,10 +4,10 @@
 
 ## 下载 v2.0.6
 
-- 推荐下载地址（国内可用，始终最新）：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-latest.zip>
+- 推荐下载地址（国内可用）：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.6.zip>
 - 固定版本 v2.0.6：<https://ghproxy.net/https://raw.githubusercontent.com/Kter789/codex-workspace/main/ecq-memory-extension/ecq-memory-extension-v2.0.6.zip>
-- 文件大小：67,179 字节
-- SHA-256：`f060b4f71ba0b7113396d73aa9cbbd3c16c8348f4d8e127ec2dcf93ecd4cc2e8`
+- 文件大小：67,156 字节
+- SHA-256：`15ba7b304b1bc8c25ed0fca4d830c9af717bba70c55ac638f147d20446102b90`
 
 > jsDelivr 在部分网络下无法访问，不再作为主下载地址。
 
